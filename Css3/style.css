@@ -441,3 +441,252 @@ button:hover {
         font-size: 1rem;
     }
 }
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #027BA1;
+}
+
+/* Cabeçalho */
+header {
+    height: 95px;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to bottom, #027BA1, #0227A1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Estilos para a seção de notícias */
+.news-section {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-section h2 {
+    font-size: 24px;
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Contêiner das notícias */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Estilo para cada item de notícia */
+.news-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Conteúdo da notícia */
+.news-content {
+    padding: 15px;
+}
+
+/* Título da notícia */
+.news-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Descrição da notícia */
+.news-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Link "Leia mais" */
+.news-item a {
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.news-item a:hover {
+    color: #ffeb3b;
+}
+
+/* Efeito de hover para as notícias */
+.news-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilos para a seção de música */
+.music-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #271a70;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-section h2 {
+    font-size: 24px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;  /* Limita a largura do player */
+    border-radius: 8px;
+    background-color: #0d47a1;
+    padding: 10px;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Div que contém os links do footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Estilo para os links de navegação */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para as imagens no footer */
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Espaço entre as imagens */
+    margin-top: 20px;
+}
+
+.footer-images img {
+    width: 150px;  /* Largura fixa para as imagens */
+    height: auto;
+    border-radius: 8px;  /* Deixar as imagens com bordas arredondadas */
+}
+
+/* Estilo para o copyright */
+.footer-copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; /* Tamanho da fonte menor no mobile */
+    }
+
+    .news-container {
+        grid-template-columns: 1fr; /* Exibir uma coluna no mobile */
+    }
+
+    .news-item img {
+        height: 150px; /* Ajustar altura da imagem */
+    }
+
+    .music-section h2 {
+        font-size: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column; /* Colocar os links e as imagens em uma coluna */
+        align-items: center;
+    }
+
+    .footer-images {
+        flex-direction: column; /* Colocar as imagens do footer em uma coluna */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes adicionais para telas menores, como em smartphones */
+    header h1 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .news-item img {
+        height: 120px; /* Menor altura para as imagens */
+    }
+
+    .news-content {
+        padding: 10px;
+    }
+
+    .footer-copy {
+        font-size: 10px; /* Menor tamanho da fonte para o copyright */
+    }
+
+    .music-section h2 {
+        font-size: 18px; /* Ajustar título da seção de música */
+    }
+
+    .footer-images img {
+        width: 120px; /* Menor largura das imagens */
+    }
+}
