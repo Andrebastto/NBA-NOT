@@ -1,0 +1,443 @@
+
+/* CORES 
+#064789
+#027BA1
+#029692
+#0227A1
+#060296
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #027BA1;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
+}
+/* Estilos para a seção de música */
+.music-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #271a70;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-section h2 {
+    font-size: 24px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;  /* Limita a largura do player */
+    border-radius: 8px;
+    background-color: #0d47a1;
+    padding: 10px;
+}
+
+
+/* HEADER */
+    
+header{
+    height: 95px;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to bottom, #027BA1, #0227A1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+/* styles.css */
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Div que contém os links do footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Estilo para os links de navegação */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para os links das redes sociais */
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Estilo para as imagens no footer */
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Espaço entre as imagens */
+    margin-top: 20px;
+}
+
+.footer-images img {
+    width: 150px;  /* Largura fixa para as imagens */
+    height: auto;
+    border-radius: 8px;  /* Deixar as imagens com bordas arredondadas */
+}
+
+/* Estilo para o copyright */
+.footer-copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+/* styles.css */
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para a seção de notícias */
+.news-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da seção de notícias */
+.news-section h2 {
+    font-size: 24px;
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Contêiner das notícias */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Estilo para cada item de notícia */
+.news-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+/* Estilo para a imagem */
+.news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Conteúdo da notícia */
+.news-content {
+    padding: 15px;
+}
+
+/* Título da notícia */
+.news-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Descrição da notícia */
+.news-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Link "Leia mais" */
+.news-item a {
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.news-item a:hover {
+    color: #ffeb3b;
+}
+
+/* Efeito de hover para as notícias */
+.news-item:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* MAIN */
+#title-teams{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: min(80%, 700px);
+    height: auto;
+    border-radius: 12px;
+    box-shadow:3px 3px 5px rgb(13, 13, 14); 
+}
+
+.conferencias{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.conferencias p{
+    font-style: oblique;
+}
+
+#leste{
+    margin-right: 3em;
+}
+
+#oeste{
+    margin-left: 3em;
+}
+
+.curiosidades h1{
+    color: black;
+}
+
+.curiosidades p{
+    margin-left: 1rem;
+}
+
+.curiosidades h2{
+    margin: 0 0 1rem 0.5rem;
+}
+
+#title-hist{
+    text-align: center;
+    color: white;
+}
+
+.quiz{
+    margin-top: 1rem;
+    height: auto;
+}
+
+button{
+    width: auto;
+    height: 40px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    background-color: var(--azul-claro-);
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+html{
+    --azul-: #064789;
+    --azul-claro-: #027BA1;
+    --azul-escuro-: #0227A1;
+}
+.draft{
+    margin-top: 1rem;
+}
+/* Resetando margens e padding para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #027BA1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do container do quiz */
+.quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Título do quiz */
+h1 {
+    font-size: 2rem;
+    color: #002F6C; /* Azul NBA */
+    margin-bottom: 30px;
+}
+
+/* Estilo das perguntas */
+.question {
+    margin-bottom: 30px;
+}
+
+.question-img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo das opções de resposta */
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Estilo do botão de verificação */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do resultado */
+.resultado {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .question-img {
+        width: 120px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #027BA1;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    width: auto;
+    height: 40px;
+    font-weight: 600;
+    margin-top: 0.9rem;
+    margin-left: .5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    background-color: #029692;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+/* MAIN */
+.content{
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: white;
+    width: min(80%, 700px);
+    height: 270px;
+    border-radius: 12px;
+    box-shadow:3px 3px 5px rgb(13, 13, 14); 
+}
+
+#question label{
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+button{
+    width: auto;
+    height: 40px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    background-color: var(--azul-claro-);
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+select{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+    cursor: pointer;
+
+    width: 110px;
+    height: 35px;
+    margin-top: 1.5rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+}
